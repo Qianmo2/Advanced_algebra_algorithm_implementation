@@ -23,7 +23,7 @@ def pi_compute(n: int) -> str:
 def compute_and_log(n: int) -> None:
     """
     计算圆周率并记录时间
-    :param n: 计算项数
+    :param n: 计算到小数点后多少位
     """
     start_time = time.time()
     pi_value = pi_compute(n)
