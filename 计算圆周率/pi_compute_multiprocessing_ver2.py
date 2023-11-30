@@ -1,3 +1,5 @@
+# C佬（我的 Python 师傅，大一）希望我写一个多进程版本的圆周率计算器，主要考察多进程，于是我写了这个
+
 import time
 import logging
 from multiprocessing import Pool, Manager
