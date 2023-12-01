@@ -69,11 +69,11 @@ def main():
 
     matrix = get_input_matrix(num_rows)
     print("原矩阵：")
-    print_matrix(matrix)
+    print(matrix)
 
     matrix = diagonalize_matrix(matrix)
     print("对角化矩阵（结果不唯一）：")
-    print_matrix(matrix)
+    print(matrix)
 
 
 if __name__ == "__main__":
