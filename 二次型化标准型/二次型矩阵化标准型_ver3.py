@@ -69,10 +69,10 @@ def main():
 
     matrix = get_input_matrix(num_rows)
     print("原矩阵：")
+    print_matrix(matrix)
 
     matrix = diagonalize_matrix(matrix)
     print("对角化矩阵（结果不唯一）：")
-
     print_matrix(matrix)
 
 
